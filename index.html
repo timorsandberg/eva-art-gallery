@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Eva Sandbergs Konstutställning</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2rem;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        h1 {
+            color: #6b4f4f;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+        .artwork {
+            background: white;
+            border: 1px solid #ddd;
+            padding: 0.5rem;
+            width: 250px;
+            box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .artwork img {
+            max-width: 100%;
+            height: auto;
+        }
+        .artwork h3 {
+            margin: 0.5rem 0 0.2rem 0;
+            font-size: 1.1rem;
+        }
+        .artwork p {
+            margin: 0.2rem 0 0.5rem 0;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #999;
+        }
+        /* Kontakt */
+        .contact {
+            margin-top: 3rem;
+            text-align: center;
+        }
+        .contact a {
+            color: #6b4f4f;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Eva Sandbergs Konstutställning</h1>
+        <p>Välkommen till en visning av Eva Sandbergs konst. Klicka på tavlorna för mer information eller för att kontakta oss om köp.</p>
+    </header>
+
+    <section class="gallery">
+        <div class="artwork">
+            <img src="bild1.jpg" alt="Tavla 1" />
+            <h3>Tavla 1 - Solnedgång</h3>
+            <p>Akryl på duk, 50x70 cm. Pris: 2500 kr</p>
+        </div>
+        <div class="artwork">
+            <img src="bild2.jpg" alt="Tavla 2" />
+            <h3>Tavla 2 - Skogsstämning</h3>
+            <p>Oljemålning, 40x60 cm. Pris: 3200 kr</p>
+        </div>
+        <!-- Lägg till fler konstverk här -->
+    </section>
+
+    <section class="contact">
+        <p>Vill du köpa något av verken eller har frågor? <br />
+        <a href="mailto:evasandberg@example.com">Kontakta oss via e-post</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Eva Sandberg</p>
+    </footer>
+</body>
+</html>
